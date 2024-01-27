@@ -1,0 +1,17 @@
+{
+  "name": "bbl-nodejs-workers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/loaders/*"
+  ],
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@types/node": "20.11.5",
+    "typescript": "5.3.3",
+    "uuid": "^9.0.1"
+  }
+}
