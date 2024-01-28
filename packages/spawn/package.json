@@ -1,0 +1,19 @@
+{
+  "name": "@bbl/spawn",
+  "type": "module",
+  "bin": {
+    "log-f": "./bin/log-forwarder.js",
+    "log-p": "./bin/log-pipe.js"
+  },
+  "scripts": {
+    "start:client": "node src/app.js",
+    "start:server": "node src/server.js",
+    "start:client:forward": "log-f src/app.js --url http://localhost:8000",
+    "start:client:pipe": "node src/app.js | log-p http://localhost:8000"
+  },
+  "devDependencies": {
+    "body": "5.1.0",
+    "chalk": "4.1.0",
+    "fancylog": "^4.0.5"
+  }
+}

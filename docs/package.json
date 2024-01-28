@@ -1,0 +1,14 @@
+{
+  "name": "@bbl/docs",
+  "version": "1.0.0",
+  "description": "Présentation documentation",
+  "type": "module",
+  "dependencies": {
+    "vitepress": "1.0.0-rc.40"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build ",
+    "docs:preview": "vitepress preview "
+  }
+}
