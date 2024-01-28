@@ -1,0 +1,14 @@
+{
+  "name": "@bbl/cluster",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env PORT=8091 node ./src/master.js src/main.js",
+    "start:v2": "cross-env PORT=8091 node ./src/master-v2.js src/main.js",
+    "test": "artillery run ./test/scenario.yml"
+  },
+  "dependencies": {
+    "artillery": "2.0.4",
+    "cross-env": "7.0.3"
+  }
+}
