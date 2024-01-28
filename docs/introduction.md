@@ -12,7 +12,7 @@ Dans cette présentation, nous allons nous intéresser à 3 d'entre elles :
 
 - [Spawn](./docs/spawn/index.md): Créons notre propre log forwarder.
 - [Cluster](./docs/cluster/index.md): Parallélisons nos instances Node.js
-- [Workers](./docs/workers/index.md): Optimisons nos traitements coûteux !
+- [Worker threads](./docs/workers/index.md): Optimisons nos traitements coûteux !
 
 Nous allons voir comment les utiliser et dans quels cas les utiliser.
 

@@ -59,8 +59,21 @@ export default defineConfig({
         ]
       },
       {
-        text: "Workers threads",
-        link: "/workers/index.md"
+        text: "Worker threads",
+        items: [
+          {
+            text: "Introduction",
+            link: "/workers/index.md"
+          },
+          {
+            text: "Les étapes de la démo",
+            link: "/workers/steps.md"
+          },
+          {
+            text: "Avantages & inconvénients",
+            link: "/workers/conclusion.md"
+          }
+        ]
       }
     ],
 
