@@ -1,5 +1,4 @@
 # Child Process (Spawn)
-## Introduction
 
 ![spawn](assets/spawn-log-forwarder.png)
 

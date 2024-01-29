@@ -3,16 +3,19 @@
 layout: home
 
 hero:
-  name: "Node.js"
-  text: "Spawn, Cluster, Workers et Loaders"
-  tagline: "Découvrons ensemble ces fonctionnalités parfois obscures 🫣"
+  name: "Merci !"
+  text: "C'était les spawn, cluster, workers et loaders. À vous les studios !"
+  tagline: "Et n'hésitez pas à aller voir mes autres sujets !"
   image:
-    src: /screen.png
-    alt: Node.js
+    src: /avatar.jpg
+    alt: Avatar
   actions:
     - theme: brand
-      text: Introduction
-      link: /introduction
+      text: Mon github
+      link: https://github.com/romakita
+    - theme: alt
+      text: Framework Ts.ED
+      link: https://tsed.io
 
 features:
   - title: Child Process (Spawn)
@@ -28,6 +31,4 @@ features:
     details: La solution pour le chargement de module non Js !
     link: /loaders/index.md
 ---
-
-
 

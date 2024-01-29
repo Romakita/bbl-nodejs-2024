@@ -1,0 +1,11 @@
+{
+  "name": "@bbl/graphql-loader",
+  "version": "1.0.0",
+  "description": "GraphQL loader for Node.js",
+  "exports": {
+    "./register": {
+      "import": "./esm/register.js",
+      "default": "./cjs/register.js"
+    }
+  }
+}

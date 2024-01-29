@@ -1,0 +1,15 @@
+{
+  "name": "@bbl/graphql-loader-example",
+  "type": "module",
+  "scripts": {
+    "start:cjs": "node --env-file=.env.local --require @bbl/graphql-loader/register src/index.cjs",
+    "start:esm": "node --env-file=.env.local --import @bbl/graphql-loader/register src/index.js",
+    "start:esm:advanced": "node --env-file=.env.local --import @bbl/graphql-loader-advanced/register --import @bbl/ts-loader/register src/index.advanced.ts"
+  },
+  "dependencies": {
+    "@bbl/graphql-loader": "1.0.0",
+    "@bbl/graphql-loader-advanced": "1.0.0",
+    "@bbl/ts-loader": "1.0.0",
+    "@directus/sdk": "14.0.0"
+  }
+}

@@ -1,0 +1,23 @@
+query getAllProducts {
+    resorts (filter: {
+        status: {
+            _eq: "published"
+        }
+        is_opened: {_eq: true}
+    }) {
+        id
+        uuid
+        clubmed_id
+        has_dresscode
+        has_program
+        has_spa
+        booker_credentials
+        booker_location_id
+        translations {
+            languages_code {
+                code
+            }
+            title
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@bbl/coffee",
+  "type": "module",
+  "scripts": {
+    "start": "node --import register.js ./test/main.coffee"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.7.0"
+  }
+}

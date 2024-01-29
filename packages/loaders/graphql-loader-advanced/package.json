@@ -1,0 +1,14 @@
+{
+  "name": "@bbl/graphql-loader-advanced",
+  "version": "1.0.0",
+  "description": "GraphQL loader for Node.js",
+  "type": "module",
+  "exports": {
+    "./register": {
+      "import": "./register.js"
+    }
+  },
+  "dependencies": {
+    "graphql": "16.8.1"
+  }
+}

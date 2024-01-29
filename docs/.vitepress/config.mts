@@ -74,6 +74,35 @@ export default defineConfig({
             link: "/workers/conclusion.md"
           }
         ]
+      },
+      {
+        text: "Les loaders",
+        items: [
+          {
+            text: "Introduction",
+            link: "/loaders/index.md"
+          },
+          {
+            text: "Les étapes de la démo",
+            link: "/loaders/steps.md"
+          },
+          {
+            text: "Avantages & inconvénients",
+            link: "/loaders/conclusion.md"
+          },
+          {
+            text: "Bonus",
+            link: "/loaders/bonus.md"
+          }
+        ]
+      },
+      {
+        text: "Conclusion",
+        link: "/merci.md"
+      },
+      {
+        text: "Sources",
+        link: "/sources.md"
       }
     ],
 

@@ -1,0 +1,5 @@
+schema:
+  - https://directus-dev.cms.app.clubmed/graphql:
+      headers:
+        Authorization: Bearer ${CMS_DIRECTUS_TOKEN}
+documents: "**/*.{graphql,ts,tsx}"
