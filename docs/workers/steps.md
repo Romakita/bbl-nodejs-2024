@@ -12,7 +12,7 @@ Voici les différents fichiers de la démo :
 
 :::
 
-> Voir le [code complet](https://github.com/romakita/bbl-nodejs-workers/tree/main/packages/workers)
+> Voir le [code complet](https://github.com/romakita/bbl-nodejs-2024/tree/main/packages/workers)
 
 ## Usage
 

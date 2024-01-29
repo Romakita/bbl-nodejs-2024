@@ -17,8 +17,8 @@ Voici les différents fichiers de la démo :
 :::
 
 > Voir le code complet:
-> - [le loader](https://github.com/romakita/bbl-nodejs-workers/tree/main/packages/loaders/graphql-loader)
-> - [le code d'exemple](https://github.com/romakita/bbl-nodejs-workers/tree/main/packages/loaders/example)
+> - [le loader](https://github.com/romakita/bbl-nodejs-2024/tree/main/packages/loaders/graphql-loader)
+> - [le code d'exemple](https://github.com/romakita/bbl-nodejs-2024/tree/main/packages/loaders/example)
 
 ## Usage
 

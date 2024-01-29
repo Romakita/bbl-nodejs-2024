@@ -9,6 +9,9 @@ export default defineConfig({
     search: {
       provider: "local"
     },
+    editLink: {
+      pattern: 'https://github.com/romakita/bbl-nodejs-2024/edit/main/docs/:path'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       // { text: 'Introduction', link: '/' },
