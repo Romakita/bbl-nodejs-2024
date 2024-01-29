@@ -10,7 +10,7 @@ export default defineConfig({
       provider: "local"
     },
     editLink: {
-      pattern: 'https://github.com/romakita/bbl-nodejs-2024/edit/main/docs/:path'
+      pattern: "https://github.com/romakita/bbl-nodejs-2024/edit/main/docs/:path"
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -110,7 +110,10 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      {icon: "github", link: "https://github.com/vuejs/vitepress"}
+      {
+        icon: "github",
+        link: "https://github.com/romakita/bbl-nodejs-2024"
+      }
     ]
   }
 });

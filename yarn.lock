@@ -928,8 +928,6 @@ __metadata:
 "@bbl/graphql-loader@npm:1.0.0, @bbl/graphql-loader@workspace:packages/loaders/graphql-loader":
   version: 0.0.0-use.local
   resolution: "@bbl/graphql-loader@workspace:packages/loaders/graphql-loader"
-  dependencies:
-    "@directus/sdk": "npm:14.0.0"
   languageName: unknown
   linkType: soft
 

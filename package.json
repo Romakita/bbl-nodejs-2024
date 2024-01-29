@@ -9,6 +9,10 @@
     "packages/*",
     "packages/loaders/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitub.com/romakita/bbl-nodejs-2024.git"
+  },
   "packageManager": "yarn@4.0.2",
   "dependencies": {
     "@types/node": "20.11.5",
